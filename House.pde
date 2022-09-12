@@ -32,15 +32,15 @@ void draw() {
   // sun
   fill(#ffd000);
   stroke(#ffd000);
-  ellipse(630, 110, 130, 130); // sun
-  triangle(569, 90, 520, 106, 565, 120); // west
-  triangle(571, 139, 542, 170, 589, 160); // southwest
-  triangle(616, 174, 625, 211, 645, 173); // south
-  triangle(665, 165, 685, 130, 705, 188);// southeast
-  triangle(630, 76, 690, 125, 739, 109);// east
-  triangle(660, 55, 687, 79, 715, 49);// northeast
-  triangle(631, 11, 612, 49, 648, 49);//north
-  triangle(595, 56, 540, 40, 575, 75);// northwest
+  ellipse(630, 110, 130, 130);
+  triangle(569, 90, 520, 106, 565, 120);  //  W
+  triangle(571, 139, 542, 170, 589, 160); //  SW
+  triangle(616, 174, 625, 211, 645, 173); //  S
+  triangle(665, 165, 685, 130, 705, 188); //  SE
+  triangle(630, 76, 690, 125, 739, 109);  //  E
+  triangle(660, 55, 687, 79, 715, 49);    //  NE
+  triangle(631, 11, 612, 49, 648, 49);    //  N
+  triangle(595, 56, 540, 40, 575, 75);    //  NW
 
   // dock
   fill(#b2967d);
@@ -58,7 +58,6 @@ void draw() {
   // R house body
   fill(#f9e8d7);
   stroke(0);
-  strokeWeight(1.5);
   rect(290, 325, 350, 225);
   fill(#f07167);
   quad(200, 225, 600, 225, 660, 325, 290, 325); // roof
@@ -66,7 +65,6 @@ void draw() {
   // door
   fill(#c9ada7);
   stroke(0);
-  strokeWeight(1.5);
   rect(330, 400, 90, 150);
   fill(#fff6cc);
   circle(345, 480, 8);     // doorknob
@@ -95,7 +93,6 @@ void draw() {
 
   // L top window
   stroke(0);
-  strokeWeight(1.5);
   fill(#edf2fb);
   rect(125, 310, 80, 70);
   line(165, 310, 165, 380);
